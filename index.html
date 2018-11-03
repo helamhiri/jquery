@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 	  <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img src="res/font.jpg" width="100%" height="110%">
+	</div>
+		<div class="content">
+			<h1>Text editor</h1>
+			<div class="btn">
+	<select class="button" id="sizes"  onchange="sizet()">
+		<option value="">size</option>
+		<option value="7">20</option>
+		<option value="10">50</option>
+		<option value="20">100</option>
+	</select>
+	<select class="button" id="fonts" name="taille" onchange="font()">
+		<option value="" >fonts</option>
+		<option value="sans-serif" >sans-serif</option>
+		<option value="Times New Roman">arial</option>
+		<option value="verdana">verdana</option>
+	</select>
+	
+<button class="button" onclick="big()" id="a">bold</button>
+<button class="button" onclick="inc()" id="b">italic</button>
+<button class="button" onclick="star()" id="c">underlined</button>
+</div>
+<input style="clear:both" type="text" id="par" value="Some text...">
+
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/main.js"></script>
+</html>
